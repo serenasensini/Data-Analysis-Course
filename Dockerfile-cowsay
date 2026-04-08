@@ -1,5 +1,10 @@
 FROM ubuntu:24.04
 
-RUN apt-get update && apt-get install cowsay -y
+RUN apt-get update \
+    && apt-get install -y --no-install-recommends cowsay \
+    && rm -rf /var/lib/apt/lists/*
 
-CMD ["cowsay"]
+ENV PATH="/usr/games:${PATH}"
+
+ENTRYPOINT ["cowsay"]
+CMD ["Hello"]
