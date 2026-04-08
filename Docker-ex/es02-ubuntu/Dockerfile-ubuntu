@@ -1,6 +1,6 @@
 FROM ubuntu:24.04
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
-    iputils-ping wget vim net-tools sl
+    iputils-ping wget vim net-tools
 
 CMD ["sleep", "infinity"]

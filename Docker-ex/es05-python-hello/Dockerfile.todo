@@ -1,0 +1,13 @@
+# TODO: completare questo Dockerfile
+# Obiettivo: eseguire app.py dentro un container Python.
+
+FROM python:TODO
+
+WORKDIR /app
+
+# TODO: copiare requirements.txt
+# TODO: installare eventuali dipendenze
+# TODO: copiare app.py
+
+# TODO: impostare il comando finale
+

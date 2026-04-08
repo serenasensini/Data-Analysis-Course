@@ -1,0 +1,12 @@
+EmployeeID,Name,Age,Salary,Sales,Department
+1,Alice,25,42000,120000,HR
+2,Bob,31,56000,180000,Sales
+3,Carla,28,48000,150000,Marketing
+4,Diego,45,78000,260000,Finance
+5,Elena,36,64000,210000,Sales
+6,Fabio,29,50000,170000,IT
+7,Giorgia,41,72000,240000,Finance
+8,Hassan,33,59000,190000,Marketing
+9,Irene,27,46000,140000,HR
+10,Luca,38,67000,220000,IT
+
