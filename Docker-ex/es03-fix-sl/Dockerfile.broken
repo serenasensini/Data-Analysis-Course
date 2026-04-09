@@ -1,7 +1,7 @@
-FROM ubuntu:24.04
+FROM ubuntu:24.04-slum
 
-RUN apt update && apt install -y sll
+RUN apt update && apk install -y sl
 
-ENTRYPOINT sl
+ENTRYPOINT sll
 CMD -l
 
